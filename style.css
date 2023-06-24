@@ -1,0 +1,60 @@
+.todo-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #353232;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #todo-form {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  #todo-input {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #55dbf3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2a0bda;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  li label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  li input[type="checkbox"] {
+    vertical-align: middle;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #df7070;
+  }
+  
+
+    
